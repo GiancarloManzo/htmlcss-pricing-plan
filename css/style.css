@@ -17,3 +17,12 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.card.plan.type {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.plan.type {
+}
