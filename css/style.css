@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  font-family: sans-serif;
+}
 img {
   display: block;
   max-width: 100%;
@@ -26,14 +28,14 @@ a {
 }
 
 .card-ultimate {
-  width: 250px;
+  width: 300px;
   min-height: 600px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 12px;
 }
 .card-base {
-  width: 250px;
+  width: 300px;
   min-height: 600px;
   padding: 20px;
   border: 1px solid #ccc;
@@ -41,9 +43,22 @@ a {
 }
 
 .card-pro {
-  width: 250px;
+  width: 300px;
   min-height: 600px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 12px;
+}
+h2 {
+  font-size: 32px;
+}
+.amount {
+  font-size: 60px;
+  font-weight: bold;
+}
+ul {
+  font-size: 20px;
+}
+.discount {
+  padding: 10px;
 }
