@@ -18,11 +18,12 @@ a {
   text-decoration: none;
 }
 
-.card.plan.type {
+.plans-cards {
+  max-width: 900px;
+}
+
+.card {
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-.plan.type {
 }
